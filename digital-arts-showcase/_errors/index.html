@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/wfed2/digital-arts-showcase/styles.css" type="text/css">
+    <title>Digital Arts Showcase - 2024</title>
+    <link rel="icon" href="images/my-logo.webp" type="image/x-icon">
+    <!-- Google Font - Roboto Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- Load Headroom.js -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.12.0/headroom.min.js" integrity="sha512-9UsrKTYzS9smDm2E58MLs0ACtOki+UC4bBq4iK5wi7lJycwqcaiHxr1bdEsIVoK0l5STEzLUdYyDdFQ5OEjczw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Load AOS.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script>document.addEventListener('DOMContentLoaded', () => AOS.init({once:true}))</script>
+    <script defer src="/wfed2/digital-arts-showcase/script.js"></script>
+</head> 
+
+    <body class="error">
+
+        <nav class="nav-main">
+            <button class="nav-main-menu-toggle" aria-label="Open Menu" aria-controls="nav-main-menu" aria-expanded="false">
+                <svg viewBox="0 0 48 48" width="48" height="48">
+                    <rect x="6" y="12" width="36" height="4" rx="2"></rect>
+                    <rect x="6" y="22" width="36" height="4" rx="2"></rect>
+                    <rect x="6" y="32" width="36" height="4" rx="2"></rect>
+                </svg>
+            </button>
+            <ul id="nav-main-menu" hidden>
+                <li><a href="index.html"><svg class="icon icon-home"><use href="#icon-home"></use></svg>Home</a></li>
+                <li><a href="programs.html"><svg class="icon icon-info"><use href="#icon-info"></use></svg>Programs</a></li>
+                <li><a href="contact.html"><svg class="icon icon-contact"><use href="#icon-contact"></use></svg>Contact</a></li>
+                <li><a href="archive.html"><svg class="icon icon-archive"><use href="#icon-archive"></use></svg>Archives</a></li>
+            </ul>
+        </nav>
+
+        <header class="header-main">
+            <img src="/wfed2/digital-arts-showcase/images/showcase-header.webp" alt="Image of the showcase logo">         
+        </header>
+
+        <!-- Start of Wrapper main content -->
+        <div class="wrapper">
+
+            <aside class="aside-main">
+                <div class="error-page">
+                    <h1>404 Error</h1>
+                    <p>Unfortunately, there is nothing to see here...  Go back to the <a href="/wfed2/digital-arts-showcase/index.html">Home</a> page.</p>
+                <div class="grid-12">
+                    <div class="grid-12-span-12">
+                        <video autoplay="autoplay" loop="loop" muted playsinline preload="auto">
+                            <source src="/wfed2/digital-arts-showcase/404_error.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                </div>
+            </aside>
+            
+        </div>
+        <!-- End of the Wrapper -->
+        
+            <footer class="foot-links footer-main">
+                <div class="link-left">
+                    <a href="/index.html">&copy; 2024 - Chris</a>
+                </div>
+                <div class="link-right">
+                    <a href="documentation.html">DOCS</a>
+                    <a href="javascript:void(window.open('https://wave.webaim.org/report?url=%27+escape(window.location)))">WAVE</a>
+                    <a href="javascript:location='https://jigsaw.w3.org/css-validator/validator?uri='+escape(location)">CSS</a>
+                    <a href="javascript:location='https://validator.w3.org/nu/?doc='+escape(location)">HTML</a>
+                </div>
+            </footer>
+
+
+            <!-- SVG Sprites for NAV and Card Links -->
+            <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                    <symbol id="icon-home" viewBox="0 0 32 32">
+                        <path d="M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z"></path>
+                    </symbol>
+                    <symbol id="icon-archive" viewBox="0 0 34 32">
+                        <path d="M32 30v-2h-2v-12h2v-2h-6v2h2v12h-6v-12h2v-2h-6v2h2v12h-6v-12h2v-2h-6v2h2v12h-6v-12h2v-2h-6v2h2v12h-2v2h-2v2h34v-2h-2z"></path>
+                        <path d="M16 0h2l16 10v2h-34v-2l16-10z"></path>
+                    </symbol>
+                    <symbol id="icon-info" viewBox="0 0 32 32">
+                        <path d="M14 9.5c0-0.825 0.675-1.5 1.5-1.5h1c0.825 0 1.5 0.675 1.5 1.5v1c0 0.825-0.675 1.5-1.5 1.5h-1c-0.825 0-1.5-0.675-1.5-1.5v-1z"></path>
+                        <path d="M20 24h-8v-2h2v-6h-2v-2h6v8h2z"></path>
+                        <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13z"></path>
+                    </symbol>
+                    <symbol id="icon-contact" viewBox="0 0 32 32">
+                        <path d="M26.667 0h-21.333c-2.934 0-5.334 2.4-5.334 5.334v21.332c0 2.936 2.4 5.334 5.334 5.334h21.333c2.934 0 5.333-2.398 5.333-5.334v-21.332c0-2.934-2.399-5.334-5.333-5.334zM26.667 4c0.25 0 0.486 0.073 0.688 0.198l-11.355 9.388-11.355-9.387c0.202-0.125 0.439-0.198 0.689-0.198h21.333zM5.334 28c-0.060 0-0.119-0.005-0.178-0.013l7.051-9.78-0.914-0.914-7.293 7.293v-19.098l12 14.512 12-14.512v19.098l-7.293-7.293-0.914 0.914 7.051 9.78c-0.058 0.008-0.117 0.013-0.177 0.013h-21.333z"></path>
+                    </symbol>
+                </defs>
+            </svg>
+
+    </body>
+
+</html>
+
