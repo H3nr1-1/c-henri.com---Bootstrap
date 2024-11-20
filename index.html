@@ -18,6 +18,11 @@
     <link href="style.css" rel="stylesheet">
     <!-- Font Awesome CDN -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <!-- Load aos.js Animations-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script>document.addEventListener('DOMContentLoaded', () => AOS.init({once:true}))</script>
+    <!-- The AOS.init({once:true}) ensures that the animations will only happen once on the page and not multiple times as the user scrolls up and down.  -->
     <script src="script.js"></script>
 
     <title>Chris Henrickson - Web Designer</title>
@@ -106,7 +111,7 @@
                 <h2 class="  text-center">Education</h2>
                 <div class="mb-5 heading-border"></div>
               </div>
-              <div class="resume-item col-md-6 col-sm-12 " > 
+              <div class="resume-item col-md-6 col-sm-12" data-aos="fade-down-right"> 
                 <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                   <div class=" resume-content mr-auto">
                       <h4 class="mb-3"><i class="fas fa-chalkboard-teacher mr-3 text-info"></i> Northeast Wisconsin Technical College</h4>
@@ -118,7 +123,7 @@
                   <h3>Associate Degree</h3>
                 </div>  
               </div>
-              <div class="resume-item col-md-6 col-sm-12">
+              <div class="resume-item col-md-6 col-sm-12" data-aos="fade-down-left">
                 <div class="card mx-0 p-4 mb-5" style="border-color: #ffc107; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                   <div class="resume-content mr-auto">
                       <h4 class="mb-3"><i class="fas fa-graduation-cap mr-3 text-warning"></i> Lakeshore Technical College</h4>
@@ -144,7 +149,7 @@
               </div>
           </div>
           <div class="row my-auto">
-              <div class="col-sm-4 portfolio-item filter">
+              <div class="col-sm-4 portfolio-item filter" data-aos="fade-down-right">
                   <a class="portfolio-link" href="#portfolioModal1" data-bs-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
@@ -154,7 +159,7 @@
                       <img class="img-fluid" src="images/Burger-Haven.webp" alt="A screenshot of the Burger Haven website I created using Bootstrap.">
                   </a>
               </div>
-              <div class="col-sm-4 portfolio-item filter">
+              <div class="col-sm-4 portfolio-item filter" data-aos="fade-down-right">
                   <a class="portfolio-link" href="#portfolioModal2" data-bs-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
@@ -164,7 +169,7 @@
                       <img class="img-fluid" src="images/Colonial-motel.webp" alt="A screenshot of the Colonial Motel website I created.">
                   </a>
               </div>
-              <div class="col-sm-4 portfolio-item filter">
+              <div class="col-sm-4 portfolio-item filter" data-aos="fade-down-right">
                   <a class="portfolio-link" href="#portfolioModal3" data-bs-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
@@ -174,7 +179,7 @@
                       <img class="img-fluid" src="images/First-Portfolio.webp" alt="A screenshot of my first portfolio website I created.">
                   </a>
               </div>              
-              <div class="col-sm-4 portfolio-item filter">
+              <div class="col-sm-4 portfolio-item filter" data-aos="fade-down-left">
                   <a class="portfolio-link" href="#portfolioModal4" data-bs-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
@@ -184,7 +189,7 @@
                       <img class="img-fluid" src="images/Henri-Blog.webp" alt="A screenshot of a blog website I created using Bootstrap and PHP.">
                   </a>
               </div>
-              <div class="col-sm-4 portfolio-item filter">
+              <div class="col-sm-4 portfolio-item filter" data-aos="fade-down-left">
                   <a class="portfolio-link" href="#portfolioModal5" data-bs-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
@@ -194,7 +199,7 @@
                       <img class="img-fluid" src="images/Digital-Arts.webp" alt="A website I created for my UI/UX class at NWTC using grid and flex.">
                   </a>
               </div>
-              <div class="col-sm-4 portfolio-item filter">
+              <div class="col-sm-4 portfolio-item filter" data-aos="fade-down-left">
                 <a class="portfolio-link" href="#portfolioModal6" data-bs-toggle="modal">
                     <div class="caption-port">
                         <div class="caption-port-content">
@@ -204,7 +209,7 @@
                     <img class="img-fluid" src="images/c-henri.com-rebrand.webp" alt="A portfolio of my work from classes at NWTC.">
                 </a>
             </div>
-              <div class="col-sm-4 portfolio-item filter">
+              <div class="col-sm-4 portfolio-item filter" data-aos="fade-down-right">
                   <a class="portfolio-link" href="#portfolioModal7" data-bs-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
@@ -223,22 +228,22 @@
       <section class=" d-flex flex-column" id="skills">
          <div class="p-lg-5 p-4 skill-cover">
           <h3 class="text-center text-white">Coding Skills</h3>
-          <div class="row text-center my-auto "> 
-              <div class="col-md-4 col-sm-6">
+          <div class="row text-center my-auto"> 
+              <div class="col-md-4 col-sm-6" data-aos="flip-up" data-aos-delay="150">
                   <div class="skill-item">
                       <i class="fab fa-html5 fa-5x"></i>
                       <h2><span class="counter"> 80 </span><span>%</span></h2>
                       <p>HTML5</p>
                   </div>
               </div>
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-4 col-sm-6" data-aos="flip-up" data-aos-delay="300">
                   <div class="skill-item">
                       <i class="fab fa-css3 fa-5x"></i>
                       <h2><span class="counter"> 80 </span><span>%</span></h2>
                       <p>CSS3</p>
                   </div>
               </div>
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-4 col-sm-6" data-aos="flip-up" data-aos-delay="450">
                   <div class="skill-item">
                       <i class="fab fa-bootstrap fa-5x"></i>
                       <h2><span class="counter"> 70 </span><span>%</span></h2>
@@ -275,7 +280,7 @@
                     <textarea id="message" name="message" placeholder="Your message" class="form-control" rows="4"></textarea>
                     </div>
                     <div class="col-md-12">
-                    <button class="btn btn-general btn-white" type="submit" role="button">Send</button>
+                    <button class="btn-general btn-white" type="submit" role="button">Send</button>
                     </div>
                 </div>
               </form>
@@ -349,7 +354,7 @@
                                   <img class="img-fluid img-centered" src="images/Burger-Haven.webp" alt="Burger Haven website I created using Bootstrap.">
                                 </div>
                                 <div class="col-md-6">
-                                  <p>I created a Burger Haven using Bootstrap 5 to refresh my skills in responsive web design and modern frontend development. This project allowed me to practice using Bootstrap's grid system, utility classes, and prebuilt components to create a professional, mobile-friendly design. It also helped me stay updated with the latest features of Bootstrap and reinforced my ability to build efficient, visually appealing websites.</p>
+                                  <p>I created Burger Haven using Bootstrap 5 to refresh my skills in responsive web design and modern frontend development. This project allowed me to practice using Bootstrap's grid system, utility classes, and prebuilt components to create a professional, mobile-friendly design. It also helped me stay updated with the latest features of Bootstrap and reinforced my ability to build efficient, visually appealing websites.</p>
                                   <ul class="list-inline item-details">
                                       <li>View Project:
                                           <strong>
@@ -367,7 +372,7 @@
                                         </strong>
                                       </li>
                                   </ul>
-                                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn-general btn-white" data-bs-dismiss="modal">Close</button>
                               </div>
                             </div>
                           </div>
@@ -416,7 +421,7 @@
                                       </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-primary"
+                                <button type="button" class="btn-primary btn-white"
                                 data-bs-dismiss="modal">Close</button>
                             </div>
                           </div>
@@ -466,7 +471,7 @@
                                       </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-primary"
+                                <button type="button" class="btn-primary btn-white"
                                  data-bs-dismiss="modal">Close</button>
                               </div>
                           </div>
@@ -502,7 +507,7 @@
                                 <ul class="list-inline item-details">
                                     <li>View Project:
                                         <strong>
-                                          <a href="Henri-Blog/index.html">Henri Blog</a>
+                                          <a href="Henri-Blog/index.php">Henri Blog</a>
                                         </strong>
                                     </li>
                                     <li>Date:
@@ -516,7 +521,7 @@
                                       </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-primary"
+                                <button type="button" class="btn-primary btn-white"
                                  data-bs-dismiss="modal">Close</button>
                               </div>
                           </div>
@@ -566,7 +571,7 @@
                                       </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-primary"
+                                <button type="button" class="btn-primary btn-white"
                                  data-bs-dismiss="modal">Close</button>
                             </div>
                           </div>
@@ -616,7 +621,7 @@
                                       </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-primary"
+                                <button type="button" class="btn-primary btn-white"
                                  data-bs-dismiss="modal">Close</button>
                             </div>
                           </div>
@@ -666,7 +671,7 @@
                                       </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-primary"
+                                <button type="button" class="btn-primary btn-white"
                                  data-bs-dismiss="modal">Close</button>
                             </div>
                           </div>
