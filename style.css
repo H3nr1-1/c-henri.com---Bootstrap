@@ -176,6 +176,10 @@ a:active {
       border-bottom: 1px solid #dee2e6;
       padding-top: 5rem !important;
       padding-bottom: 5rem !important;
+      /* The max-width and overflow are properties to control the aos.js behaviors
+      so that the is no width scroll before the animations happen. */
+      max-width: 100%;
+      overflow: hidden;
   }
 
   section.resume-section .resume-item .resume-date {
@@ -549,4 +553,13 @@ a:active {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+#copyright {
+    background-color: rgba(144, 144, 144, 0.78);
+    color: rgb(244, 248, 255);
+}
+
+#copyright img {
+    width: 100%;
 }
