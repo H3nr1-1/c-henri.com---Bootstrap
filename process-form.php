@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p>Sorry, there was an error sending your message. Please try again later.</p>";
     }
 
-        // Redirect bac k to home page
+        // Redirect back to home page
         header("Location: index.html");
         exit;
     } else {
