@@ -1,0 +1,21 @@
+[19-Nov-2024 01:29:14 America/Detroit] PHP Warning:  Version warning: Imagick was compiled against ImageMagick version 1692 but version 1693 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[19-Nov-2024 01:29:14 America/Detroit] PHP Warning:  Undefined array key "Message" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 7
+[19-Nov-2024 01:29:14 America/Detroit] PHP Warning:  Undefined variable $email in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 11
+[19-Nov-2024 01:29:15 America/Detroit] PHP Warning:  Version warning: Imagick was compiled against ImageMagick version 1692 but version 1693 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[19-Nov-2024 01:29:15 America/Detroit] PHP Warning:  Undefined array key "FirstName" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 3
+[19-Nov-2024 01:29:15 America/Detroit] PHP Warning:  Undefined array key "LastName" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 4
+[19-Nov-2024 01:29:15 America/Detroit] PHP Warning:  Undefined array key "Email" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 5
+[19-Nov-2024 01:29:15 America/Detroit] PHP Warning:  Undefined array key "PhoneNumber" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 6
+[19-Nov-2024 01:29:15 America/Detroit] PHP Warning:  Undefined array key "Message" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 7
+[19-Nov-2024 01:29:15 America/Detroit] PHP Warning:  Undefined variable $email in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 11
+[20-Nov-2024 08:31:31 America/Detroit] PHP Warning:  Version warning: Imagick was compiled against ImageMagick version 1692 but version 1693 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[22-Nov-2024 11:27:10 America/Detroit] PHP Warning:  Version warning: Imagick was compiled against ImageMagick version 1692 but version 1693 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[22-Nov-2024 11:27:10 America/Detroit] PHP Warning:  Undefined array key "Message" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 7
+[22-Nov-2024 11:27:10 America/Detroit] PHP Warning:  Undefined variable $email in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 11
+[22-Nov-2024 11:27:14 America/Detroit] PHP Warning:  Version warning: Imagick was compiled against ImageMagick version 1692 but version 1693 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[22-Nov-2024 11:27:14 America/Detroit] PHP Warning:  Undefined array key "FirstName" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 3
+[22-Nov-2024 11:27:14 America/Detroit] PHP Warning:  Undefined array key "LastName" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 4
+[22-Nov-2024 11:27:14 America/Detroit] PHP Warning:  Undefined array key "Email" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 5
+[22-Nov-2024 11:27:14 America/Detroit] PHP Warning:  Undefined array key "PhoneNumber" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 6
+[22-Nov-2024 11:27:14 America/Detroit] PHP Warning:  Undefined array key "Message" in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 7
+[22-Nov-2024 11:27:14 America/Detroit] PHP Warning:  Undefined variable $email in /home/yrrujvxy/public_html/New_Website_c-henri.com/process_contact.php on line 11

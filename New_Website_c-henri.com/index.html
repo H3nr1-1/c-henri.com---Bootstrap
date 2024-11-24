@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>	
+        <meta charset="UTF-8">
+          <!-- Important Meta info -->
+          <meta name="description" content="Welcome to Chris Henrickson's personal web design portfolio.  Discover a custom-made and unique website. Contact me today for your web design services.">
+          <meta name="keywords" content="Website Development, Website Design, Manitowoc, Wisconsin, Front End Web Development">
+          <meta name="geo.placename" content="Manitowoc, Wisconsin, USA">
+          <meta name="robots" content="index, follow">
+          <meta http-equiv="Content-Language" content="en">
+          <meta property="og:site_name" content="© Chris Henrickson Front End Web Developer">
+          <meta property="og:type" content="website">
+          <meta property="og:title" content="Home - © Chris Henrickson Front End Web Developer">
+          <meta property="og:url" content="https://www.c-henri.com/index">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" type="text/css">
+          <!-- Load aos.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <script>document.addEventListener('DOMContentLoaded', () => AOS.init({once:true}))</script>
+        <!-- The AOS.init({once:true}) ensures that the animations will only happen once on the page and not multiple times as the user scrolls up and down.  -->
+        <!-- FontAwesome Styles for the logo's in the footer -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script defer src="script.js"></script>
+        <title>Chris Henrickson - Frontend Developer</title>
+        <link rel="icon" href="images/my-logo.webp" type="image/x-icon">
+        <link rel="apple-touch-icon" href="images/apple-touch.webp">
+    </head>	
+
+        <body>
+
+            <div class="wrapper">
+
+                <header>
+                    <img class="logo" src="images/logo-header.webp" alt="My logo - Chris Henrickson - Web Developer">
+                    <nav class="nav-main">
+                        <button class="nav-main-menu-toggle" aria-label="Open Menu" aria-controls="nav-main-menu" aria-expanded="false">
+                            <svg viewBox="0 0 48 48" width="48" height="48">
+                                <rect x="6" y="12" width="36" height="4" rx="2"></rect>
+                                <rect x="6" y="22" width="36" height="4" rx="2"></rect>
+                                <rect x="6" y="32" width="36" height="4" rx="2"></rect>
+                            </svg>
+                        </button>
+                        <ul id="nav-main-menu" hidden>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="contact.html">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                
+                <section id="about">
+                  <div class="about-container">
+                    <!-- Hero Section -->
+                    <div class="hero">
+                      <img src="images/my-picture.webp" alt="A profile picture of Chris Henrickson." class="profile-img">
+                      <h1>Hi, my name is Chris Henrickson</h1>
+                      <p>A Frontend Web Developer graduating in Spring 2025.</p>
+                    </div>
+                
+                    <!-- About Content Section -->
+                    <div class="about-content">
+                      <div class="about-text">
+                        <div class="grid-12">
+                          <div class="grid-12-span-2-11">
+                            <h2>My Journey</h2>
+                            <p>I started my journey in web development in Fall of 2022 by attending classes at Lakeshore Technical College.  In Spring of 2023 I completed a Technical Diploma as a Web Development Specialist.  After that, I transferred to Northeast Wisconsin Technical College to further my education and work towards an associate degree in Web Development and Design.  At NWTC, I have been focusing more on frontend development and design.  My strongest skills are HTML, CSS, Bootstrap and responsive design.  At this time I am on track for graduation in the Spring of 2025.</p>
+                            <p>I enjoy building user friendly and visually pleasing websites that keep the users engaged and interested throughout their visit.  I strive to make every part of the website pixel perfect!</p>
+                          </div>
+
+                          <div class="grid-12-span-2-4 skills">
+                            <h2>Skills</h2>
+                            <ul>
+                              <li>HTML5, CSS3, JavaScript</li>
+                              <li>Bootstrap5, Responsive Design</li>
+                              <li>Version Control (GitHub)</li>
+                              <li>MySQL, PHP</li>
+                              <li>JQuery</li>
+                            </ul>
+                          </div>
+                    
+                          <div class="grid-12-span-7-11 philosophy">
+                            <h2>Philosophy</h2>
+                            <p>Making visually appealing websites that catch the users attention from the beginning is the key and keeping the user engaged throughout their visit are my goal.  I pride myself on writing clean and easy to read code.</p>
+                          </div>
+                        </div>
+
+                          <!-- Call to Action -->
+                          <div class="cta">
+                            <a href="contact.html" class="btn">Get in Touch</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </section>
+
+                <div class="heading-projects">
+                    <h2 class="projects">Projects I have Created</h2>
+                </div>
+                <section class="cards-wrapper">
+                    <div class="card-grid-space" data-aos="fade-right">
+                      <a class="card" href="Colonial-Motel/index.html" style="background-image: url('images/colonial-motel.webp')" alt="Header image for Colonial Motel project.">
+                        <div>
+                          <div class="tags">
+                            <div class="tag">Colonial Motel</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-grid-space" data-aos="fade-up" data-aos-duration="500">
+                      <a class="card" href="https://chenrickson.bitweb1.nwtc.edu/wfed2/digital-arts-showcase/index.html" style="background-image: url('images/digital-arts-showcase.webp')" alt="Header image for my Digital Arts Showcase project.">
+                        <div>
+                          <div class="tags">
+                            <div class="tag">Digital Arts Showcase</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-grid-space" data-aos="fade-left" data-aos-duration="500">
+                      <a class="card" href="burger_haven/index.html" style="background-image: url('images/burger_haven_card.webp')" alt="Header image for my original website.">
+                        <div>
+                          <div class="tags">
+                            <div class="tag">Burger Haven</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-grid-space" data-aos="fade-right" data-aos-duration="1000">
+                      <a class="card" href="Henri-Blog/index.php" style="background-image: url('images/henri-blog.webp')" alt="Header image for Henri Blog project.">
+                        <div>
+                          <div class="tags">
+                            <div class="tag">Henri's Blog</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-grid-space" data-aos="fade-up" data-aos-duration="500">
+                      <a class="card" href="https://chenrickson.bitweb1.nwtc.edu/" style="background-image: url('images/NWTC-assignments.webp')" alt="Header image for school portfolio projects.">
+                        <div>
+                          <div class="tags">
+                            <div class="tag">School Portfolio</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-grid-space" data-aos="fade-left" data-aos-duration="500">
+                      <a class="card" href="c-henri.com/index.html" style="background-image: url('images/original_website.webp')" alt="Header image for my original website.">
+                        <div>
+                          <div class="tags">
+                            <div class="tag">My Original Website</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                </section>
+
+                <footer class="footer-distributed">
+                  <div class="footer-left">            
+                    <img src="images/logo-footer.webp" alt="My personal brand logo.">            
+                    <p class="footer-links">
+                      <a href="index.html" class="link-1">Home</a>                      
+                      <a href="contact.html">Contact Me</a>
+                    </p>            
+                    <p class="footer-company-name">Chris Henrickson Web Dev © 2023</p>
+                  </div>            
+                  <div class="footer-center">            
+                    <div>
+                      <i class="fa fa-map-marker"></i>
+                      <p><span></span> Manitowoc, Wisconsin</p>
+                    </div>            
+                    <div>
+                      <i class="fa fa-phone"></i>
+                      <p>1-920-905-3317</p>
+                    </div>            
+                    <div>
+                      <i class="fa fa-envelope"></i>
+                      <p><a href="mailto:henri@c-henri.com">henri@c-henri.com</a></p>
+                    </div>            
+                  </div>            
+                  <div class="footer-right">            
+                    <p class="footer-company-about">
+                      <span>About Me</span>
+                      I received a Technical Diploma from Lakeshore Technical College in the spring of 2023 for Web Development Specialist.  I am currently attending Northeast Wisconsin Technical College, studying Web Development and Design with an expected graduation of spring 2025 with an Associates Degree.
+                    </p>            
+                    <div class="footer-icons">            
+                      <a href="https://www.linkedin.com/in/chris-henrickson/" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                      <a href="https://github.com/H3nr1-1" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                      <a href="https://www.instagram.com/c_henri_28/" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>           
+                      <a href="https://x.com/coachHenri28" aria-label="twitter"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="https://www.upwork.com/freelancers/~01cd856b372315473f" aria-label="upwork"><i class="fa fa-briefcase"></i></a>
+                    </div>            
+                  </div>            
+                </footer>
+
+            </div>
+
+        </body>
+                
+</html>
