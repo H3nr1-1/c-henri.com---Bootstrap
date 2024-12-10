@@ -181,6 +181,23 @@ header img{
   margin: 0 auto;
 }
 
+.about-heading {
+  background: var(--color-primary);
+  box-shadow: 0px 0px 15px -5px inset var(--color-white),
+              0px 0px 15px -5px inset var(--color-white);
+}
+
+.about-heading h2 {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  border-bottom: 3px outset var(--color-black);
+  margin-top: 2em;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -189,7 +206,6 @@ header img{
   padding: 40px 20px;
   background: url(images/intro_background.webp) no-repeat;
   background-size: cover;
-  border-top: 3em solid var(--color-primary);
 }
 
 .profile-img {
