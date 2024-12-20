@@ -3,6 +3,7 @@
     --color-primary: #2196f3;
     --color-body: #868e96;
     --color-scrollbar: #cbcccb;
+    --color-dark: #242323;
 }
 
 html {
@@ -155,7 +156,6 @@ a:active {
     font-size: 16px;
     padding: 10px 15px;
     font-weight: 400;
-    text-transform: uppercase;
 }
 
 .btn-white {
@@ -319,6 +319,10 @@ section.resume-section .resume-item .resume-date {
 
 #portfolio * {
     z-index: 2;
+}
+
+.project-image {
+    box-shadow: 0 0 20px var(--color-dark);
 }
 
 @media (min-width: 767px) {
