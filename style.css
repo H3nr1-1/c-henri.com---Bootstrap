@@ -142,6 +142,11 @@ a:active {
 
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
         display: block;
+        transition: all 0.3s ease;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        text-decoration: underline 4px var(--color-body);
     }
 }
 
@@ -422,7 +427,7 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #skills {
-    background-image: url("../img/bg-stats.jpg");
+    background-image: url("images/skills-background.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -441,7 +446,7 @@ section.resume-section .resume-item .resume-date {
 .skill-item {
     padding: 20px 0;
     margin-bottom: 30px;
-    background: rgba(144, 144, 144, 0.78);
+    background: rgba(45, 42, 42, 0.78);
 }
 
 .skill-item i {
