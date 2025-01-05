@@ -93,6 +93,7 @@ a:active {
     font-weight: 600;
     text-transform: uppercase;
     margin-left: 3em;
+    color: var(--color-dark);
 }
 
 @media (min-width: 992px) {
