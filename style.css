@@ -1,6 +1,7 @@
 /*GENERAL STYLE*/
 :root {
     --color-primary: #2196f3;
+    --color-background-education: #f2f4f2;
     --color-body: #868e96;
     --color-scrollbar: #cbcccb;
     --color-dark: #242323;
@@ -34,7 +35,7 @@ h6 {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    color: var(--color-dark);
 }
 
 h1 {
@@ -53,7 +54,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #0f72c1;
+    color: var(--color-primary);
 }
 
 .subheading {
@@ -63,11 +64,15 @@ a:active {
     color: var(--color-primary);
 }
 
+p {
+    color: var(--color-dark);
+}
+
 /*==================================================
                   SOCIAL-ICON
 ====================================================*/
 .list-social-icons a {
-    color: #495057;
+    color: var(--color-dark);
 }
 
 .list-social-icons a:hover {
@@ -196,7 +201,6 @@ a:active {
 }
 
 section.resume-section {
-    border-bottom: 1px solid #dee2e6;
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
     /* The max-width and overflow are properties to control the aos.js behaviors
@@ -254,13 +258,14 @@ section.resume-section .resume-item .resume-date {
                     EDUCATION
 ====================================================*/
 #education {
-    background: #f5f5f5;
+    background: var(--color-background-education);
+    border-bottom: 1px solid var(--color-scrollbar);
 }
 
 #education .card h4 {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: none;
-    color: #555;
+    color: var(--color-dark);
 }
 
 /*====================================================
@@ -397,7 +402,7 @@ section.resume-section .resume-item .resume-date {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #2C3E50;
+    background-color: var(--color-dark);
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -409,7 +414,7 @@ section.resume-section .resume-item .resume-date {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    background-color: #2C3E50;
+    background-color: var(--color-dark);
 }
 
 .portfolio-modal .modal-backdrop {
@@ -547,7 +552,7 @@ section.resume-section .resume-item .resume-date {
         margin: 10px 0 30px 0;
         border-color: #ccc;
         border-radius: 0;
-        color: #717171;
+        color: var(--color-primary-background);
     }
 
     .contact-box-desc {
