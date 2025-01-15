@@ -26,5 +26,3 @@
     });
   
   }); // End of use strict
-
-  
