@@ -151,7 +151,7 @@ p {
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
         display: inline-block;
         position: relative;
-        padding: 5px 0;
+        padding: 5px 20px;
         margin: auto;
     }
 
@@ -160,24 +160,24 @@ p {
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:after {
         content: "";
         position: absolute;
-        width: 0;
-        height: 4px; 
+        height: 0;
+        width: 4px; 
         background-color: var(--color-dark);
-        transition: width 0.4s ease-in;
-        left: 0;
+        transition: height 0.4s ease-in;
+        bottom: 0;
     }
 
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link::before {
-        top: 0; /* Overline */
+        left: 0; /* Overline */
     }
 
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link::after {
-        bottom: 0; /* Underline */
+        right: 0; /* Underline */
     }
 
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover::before,
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover::after {
-        width: 100%; /* Expands from left to right */
+        height: 100%; /* Expands from left to right */
     }
     /* ----Animation for the underline and overline on hover for nav links---- */
 }

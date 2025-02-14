@@ -6,10 +6,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = htmlspecialchars($_POST['subject']);
     $message = htmlspecialchars($_POST['message']);
 
-    // Set the recipient email address
     $to = "henri@c-henri.com";
 
-    // Create the email subject and body
+    // Email subject and body
     $email_subject = "Contact Form Submission: " . $subject;
     $email_body = "
     You have received a new message from the contact form on your website.
@@ -22,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message
     ";
 
-    // Set the email headers
+    // Email headers
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
