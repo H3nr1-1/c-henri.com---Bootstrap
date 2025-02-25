@@ -3,5 +3,5 @@ Options -indexes
 
 # If HTTP Status Code is matched send the user to error page
 # Use single slash / for the root level of the website then path to file
-ErrorDocument 403 /c-henri.com---Bootstrap/_errors/index.html
-ErrorDocument 404 /c-henri.com---Bootstrap/_errors/index.html
+ErrorDocument 403 /_errors/index.html
+ErrorDocument 404 /_errors/index.html
