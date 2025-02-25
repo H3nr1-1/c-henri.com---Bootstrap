@@ -631,15 +631,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 /* ---- 404 ERROR PAGE ---- */
+/* ------------------------ */
 
 body#error {
+    padding-top: 0;
     padding-left: 0;
     height: 100vh;
     margin: 0;
     background-color: #000;
     background-image: radial-gradient(#11581E, #041607), url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     font-family: 'Inconsolata', monospace;
     font-size: 1.5rem;
     color: rgba(128, 255, 128, 0.8);
@@ -731,6 +733,3 @@ body#error {
     color: white;
 }
 
-.errorLogo {
-    width: 25%;
-}
