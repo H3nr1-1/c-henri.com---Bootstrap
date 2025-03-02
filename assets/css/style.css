@@ -8,7 +8,7 @@
     --color-dark: #242323;
     --color-white: #f2f2f2;
 }
-
+    
 html {
     box-sizing: border-box;
     scrollbar-color: var(--color-primary) var(--color-scrollbar);
@@ -268,7 +268,7 @@ section.resume-section .resume-item .resume-date {
                       ABOUT
 ====================================================*/
 #about {
-    background-image: url(images/hero-background.webp);
+    background-image: url(/assets/images/hero-background.webp);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -457,7 +457,7 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #skills {
-    background-image: url("images/skills-background.webp");
+    background-image: url("/assets/images/skills-background.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

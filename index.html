@@ -25,7 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sarina&display=swap" rel="stylesheet">
     <!-- End FONTS -->
     <!-- STYLESHEET -->
-    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <!-- Font Awesome CDN -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <!-- Load aos.js Animations-->
@@ -34,14 +34,17 @@
     <script>document.addEventListener('DOMContentLoaded', () => AOS.init({once:true}))</script>
     <!-- The AOS.init({once:true}) ensures that the animations will only happen once on the page and not multiple times as the user scrolls up and down.  -->
     <!-- JAVASCRIPT -->
-    <script src="script.js"></script>
+    <script src="assets/javascript/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="assets/javascript/validation.js"></script>
     <!-- TITLE AND LOGO -->
     <title>Chris Henrickson - Front-End Web Developer</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.webp">
-    <link rel="apple-touch-icon" href="images/favicon-180x180.webp">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon-72x72.webp">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon-120x120.webp">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180x180.webp">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon-32x32.webp">
+    <link rel="apple-touch-icon" href="assets/images/favicon-180x180.webp">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon-72x72.webp">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon-120x120.webp">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon-180x180.webp">
 </head>
 
 <body id="page-top">
@@ -49,7 +52,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/my-picture.webp" alt="A picture of me.">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/images/my-picture.webp" alt="A picture of me.">
         </span>
       </a>
         <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +86,7 @@
     ======================================================-->
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
           <div class="my-auto" >
-              <img src="images/logo-header.webp" class="img-fluid mb-3" alt="My personal logo.">
+              <img src="assets/images/logo-header.webp" class="img-fluid mb-3" alt="My personal logo.">
               <h1 class="mb-0">Chris
                 <span class="text-primary">Henrickson</span>
               </h1>
@@ -170,7 +173,7 @@
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid project-image" src="images/Burger-Haven.webp" alt="A screenshot of the Burger Haven website I created using Bootstrap.">
+                      <img class="img-fluid project-image" src="assets/images/Burger-Haven.webp" alt="A screenshot of the Burger Haven website I created using Bootstrap.">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item filter" data-aos="zoom-in-up" data-aos-easing="linear">
@@ -180,7 +183,7 @@
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid project-image" src="images/Colonial-motel.webp" alt="A screenshot of the Colonial Motel website I created.">
+                      <img class="img-fluid project-image" src="assets/images/Colonial-motel.webp" alt="A screenshot of the Colonial Motel website I created.">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item filter" data-aos="zoom-in-up" data-aos-easing="linear">
@@ -190,7 +193,7 @@
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid project-image" src="images/First-Portfolio.webp" alt="A screenshot of my first portfolio website I created.">
+                      <img class="img-fluid project-image" src="assets/images/First-Portfolio.webp" alt="A screenshot of my first portfolio website I created.">
                   </a>
               </div>              
               <div class="col-sm-4 portfolio-item filter" data-aos="zoom-in-up" data-aos-easing="linear">
@@ -200,7 +203,7 @@
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid project-image" src="images/Henri-Blog.webp" alt="A screenshot of a blog website I created using Bootstrap and PHP.">
+                      <img class="img-fluid project-image" src="assets/images/Henri-Blog.webp" alt="A screenshot of a blog website I created using Bootstrap and PHP.">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item filter" data-aos="zoom-in-up" data-aos-easing="linear">
@@ -210,7 +213,7 @@
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid project-image" src="images/Digital-Arts.webp" alt="A website I created for my UI/UX class at NWTC using grid and flex.">
+                      <img class="img-fluid project-image" src="assets/images/Digital-Arts.webp" alt="A website I created for my UI/UX class at NWTC using grid and flex.">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item filter" data-aos="zoom-in-up" data-aos-easing="linear">
@@ -220,7 +223,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid project-image" src="images/c-henri.com-rebrand.webp" alt="A portfolio of my work from classes at NWTC.">
+                    <img class="img-fluid project-image" src="assets/images/c-henri.com-rebrand.webp" alt="A portfolio of my work from classes at NWTC.">
                 </a>
             </div>
               <div class="col-sm-4 portfolio-item filter" data-aos="zoom-in-up" data-aos-easing="linear">
@@ -230,7 +233,7 @@
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid project-image" src="images/NWTC-Work.webp" alt="A portfolio of my work from classes at NWTC.">
+                      <img class="img-fluid project-image" src="assets/images/NWTC-Work.webp" alt="A portfolio of my work from classes at NWTC.">
                   </a>
               </div>               
           </div>
@@ -279,7 +282,7 @@
                 <div class="heading-border-light"></div>
                 <p>No matter what you need — to find out more about my experience, to ask me how to improve or build your web service, or to request a quote — do not hesitate to get in touch with me. I will be happy to talk with you to share my experience and to give you ideas about the right design direction for your website.</p>
               </div>   
-              <form action="process-form.php" method="POST">
+              <form id="contactForm" action="process-form.php" method="POST">
               <div class="row con-form">
                     <div class="col-md-12 mb-3">
                     <input type="text" id="full-name" name="full-name" placeholder="Full Name" aria-label="full-name" class="form-control" required>
@@ -349,7 +352,7 @@
           <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-2 d-flex align-items-center justify-content-center">
-              <img src="images/logo-header.webp" alt="My logo image.">
+              <img src="assets/images/logo-header.webp" alt="My logo image.">
             </div>
             <div class="col-md-3 d-flex align-items-center justify-content-center">
               <p><strong>Designed By:</strong><br> Chris Henrickson &copy; 2024</p>
@@ -382,14 +385,14 @@
                               </div>
                               <div class="row">
                                 <div class="col-md-6">
-                                  <img class="img-fluid img-centered project-image" src="images/Burger-Haven.webp" alt="Burger Haven website I created using Bootstrap.">
+                                  <img class="img-fluid img-centered project-image" src="assets/images/Burger-Haven.webp" alt="Burger Haven website I created using Bootstrap.">
                                 </div>
                                 <div class="col-md-6">
                                   <p>I created Burger Haven using Bootstrap 5 to refresh my skills in responsive web design and modern frontend development. This project allowed me to practice using Bootstrap's grid system, utility classes, and prebuilt components to create a professional, mobile-friendly design. It also helped me stay updated with the latest features of Bootstrap and reinforced my ability to build efficient, visually appealing websites.</p>
                                   <ul class="list-inline item-details">
                                       <li>View Project:
                                           <strong>
-                                            <a href="burger_haven/index.html">Burger Haven</a>
+                                            <a href="_projects/burger_haven/index.html">Burger Haven</a>
                                           </strong>
                                       </li>
                                       <li>Date:
@@ -439,14 +442,14 @@
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered project-image" src="images/Colonial-motel.webp" alt="I created the Colonial Motel website using Bootstrap for a web design class at LTC.">
+                                <img class="img-fluid img-centered project-image" src="assets/images/Colonial-motel.webp" alt="I created the Colonial Motel website using Bootstrap for a web design class at LTC.">
                               </div>
                               <div class="col-md-6">
                                 <p>This website is a rebrand of the Colonial Motel's website from the Wisconsin Dells.  I created this project as a course final at Lakeshore College.</p>
                                 <ul class="list-inline item-details">
                                     <li>View Project:
                                         <strong>
-                                          <a href="Colonial-Motel/index.html">Colonial Motel</a>
+                                          <a href="_projects/Colonial-Motel/index.html">Colonial Motel</a>
                                         </strong>
                                     </li>
                                     <li>Date:
@@ -496,14 +499,14 @@
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered project-image" src="images/First-Portfolio.webp" alt="The first portfolio website I created using Bootstrap.">
+                                <img class="img-fluid img-centered project-image" src="assets/images/First-Portfolio.webp" alt="The first portfolio website I created using Bootstrap.">
                               </div>
                               <div class="col-md-6">
                                 <p>I created the original c-henri.com using Bootstrap5.  I didn't use many of the Bootstrap components and instead made my own using CSS.  I also used some JavaScript and jQuery for form validation.  I used this website for a while but decided to rebrand the website to show some of my skills using Grid and Flex.</p>
                                 <ul class="list-inline item-details">
                                     <li>View Project:
                                         <strong>
-                                          <a href="c-henri.com/index.html">My First Portfolio</a>
+                                          <a href="_projects/c-henri.com/index.html">My First Portfolio</a>
                                         </strong>
                                     </li>
                                     <li>Date:
@@ -553,14 +556,14 @@
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered project-image" src="images/Henri-Blog.webp" alt="A blog website I created using Bootstrap and PHP code.">
+                                <img class="img-fluid img-centered project-image" src="assets/images/Henri-Blog.webp" alt="A blog website I created using Bootstrap and PHP code.">
                               </div>
                               <div class="col-md-6">
                                 <p>I wanted to give my PHP skills some refreshment with this small website.  I built it using basic Bootstrap5 and CSS.  Then I created the blog posts using MySQL and PHP code.  I then used SESSIONS with PHP to allow an admin login that would then be able to create new posts, edit posts, and delete posts.</p>
                                 <ul class="list-inline item-details">
                                     <li>View Project:
                                         <strong>
-                                          <a href="Henri-Blog/index.php">Henri Blog</a>
+                                          <a href="_projects/Henri-Blog/index.php">Henri Blog</a>
                                         </strong>
                                     </li>
                                     <li>Date:
@@ -610,7 +613,7 @@
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered project-image" src="images/Digital-Arts.webp" alt="The final project in my UI/UX class to advertise the Digital Arts Showcase at NWTC.">
+                                <img class="img-fluid img-centered project-image" src="assets/images/Digital-Arts.webp" alt="The final project in my UI/UX class to advertise the Digital Arts Showcase at NWTC.">
                               </div>
                               <div class="col-md-6">
                                 <p>As a final project for my frontend design course at Northeast Wisconsin Technical College, I created the Digital Arts Showcase website to call attention to the function at the school.  This website is created mostly using Grid for responsive design, vanilla CSS and little bit of JavaScript.</p>
@@ -667,14 +670,14 @@
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered project-image" src="images/c-henri.com-rebrand.webp" alt="Showcase of the work I completed at NWTC.">
+                                <img class="img-fluid img-centered project-image" src="assets/images/c-henri.com-rebrand.webp" alt="Showcase of the work I completed at NWTC.">
                               </div>
                               <div class="col-md-6">
                                 <p>I rebranded my portfolio with new colors, design, and layout.  In this version, I used Grid and Flex for responsive design along with vanilla CSS.  I also used JavaScript for hamburger navigation on mobile screens.</p>
                                 <ul class="list-inline item-details">
                                     <li>View Project:
                                         <strong>
-                                          <a href="New_Website_c-henri.com/index.html">C-henri.com Rebrand</a>
+                                          <a href="_projects/New_Website_c-henri.com/index.html">C-henri.com Rebrand</a>
                                         </strong>
                                     </li>
                                     <li>Date:
@@ -724,7 +727,7 @@
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered project-image" src="images/NWTC-Work.webp" alt="Showcase of the work I completed at NWTC.">
+                                <img class="img-fluid img-centered project-image" src="assets/images/NWTC-Work.webp" alt="Showcase of the work I completed at NWTC.">
                               </div>
                               <div class="col-md-6">
                                 <p>This website is a portfolio of work I have completed at Northeast Wisconsin Technical College.  The portfolio is created with grid and flex for mobile design.  It has links to work I completed in three of the courses I attended.  There will be more updates in the future when I have new classes.</p>
