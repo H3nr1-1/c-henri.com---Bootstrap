@@ -75,6 +75,7 @@ p {
 ====================================================*/
 .list-social-icons a {
     color: var(--color-dark);
+    transition: all 0.4s ease-in-out;
 }
 
 .list-social-icons a:hover {
@@ -200,6 +201,7 @@ p {
     background-color: var(--color-primary);
     color: var(--color-white);
     box-shadow: 4px 4px 5px;
+    transition: all 0.5s ease-in;
 }
 
 .btn-white:hover,
@@ -563,6 +565,27 @@ section.resume-section .resume-item .resume-date {
     text-align: center;
     margin-right: 10px;
     border-radius: 50%;
+    transition: all 0.4s ease-in;
+}
+
+.social-icon-f .fa-linkedin:hover {
+    box-shadow: 0 0 10px #4267b2;
+    transform: scale(1.2);
+}
+
+.social-icon-f .fa-github:hover {
+    box-shadow: 0 0 10px #9e114e;
+    transform: scale(1.2);
+}
+
+.social-icon-f .fa-x-twitter:hover {
+    box-shadow: 0 0 10px #4AB3F4;
+    transform: scale(1.2);
+}
+
+.social-icon-f .fa-instagram:hover {
+    box-shadow: 0 0 10px #e24343;
+    transform: scale(1.2);
 }
 
 @media(max-width: 767px) {
