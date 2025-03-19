@@ -13,7 +13,7 @@ $(document).ready(function() {
         },
         messages: {
             "full-name": {
-                required:  "Please specify your name",
+                required:  "Please enter your name",
                 minlength: "Name should be at least 2 characters long",
             },
             email: {
