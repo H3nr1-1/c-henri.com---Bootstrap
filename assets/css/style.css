@@ -251,9 +251,12 @@ p {
                   SECTION (Generic)
 ====================================================*/
 .heading-border {
-    width: 60px;
-    height: 10px;
-    background-color: var(--color-primary);
+    width: 100px;
+    height: 15px;
+    background-color: var(--color-light-gray);
+    border: 2px solid var(--color-dark);
+    border-radius: 1em;
+    box-shadow: 0 0 8px inset var(--color-primary);
     margin: 0 auto 20px auto;
 }
 
@@ -567,7 +570,6 @@ section.resume-section .resume-item .resume-date {
     border: 2px solid var(--color-dark);
     box-shadow: 5px 5px 10px var(--color-primary);
 }
-
 
 /*====================================================
                    CONTACT
